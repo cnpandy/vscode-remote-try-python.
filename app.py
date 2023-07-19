@@ -12,4 +12,4 @@ def hello():
 
 @app.route("/test")
 def test():
-    return app.send_static_file("test.html")
+     return app.send_static_file("test.html")
