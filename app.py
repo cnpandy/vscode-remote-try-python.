@@ -3,13 +3,13 @@
 # Licensed under the MIT License. See LICENSE in the project root for license information.
 #-----------------------------------------------------------------------------------------
 
-from flask import Flask
-app = Flask(__name__)
+# from flask import Flask
+# app = Flask(__name__)
 
-@app.route("/")
-def hello():
-    return app.send_static_file("index.html")
+# @app.route("/")
+# def hello():
+#     return app.send_static_file("index.html")
 
-@app.route("/test")
-def test():
-     return app.send_static_file("test.html")
+# @app.route("/test")
+# def test():
+#      return app.send_static_file("test.html")
